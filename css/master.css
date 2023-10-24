@@ -700,7 +700,7 @@ width: 100%;
  text-align: center;
  color: #fff;
  margin-top: 170px;
- padding: 0px;
+ padding: 20px 5px;
 }
 @media (max-width:767px){
     .skill p {
@@ -708,7 +708,7 @@ width: 100%;
          text-align: center;
          color: #fff;
          margin-top: 140px;
-         padding: 20px;
+         padding: 20px 5px;
         }
 }
 svg {
