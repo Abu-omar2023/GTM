@@ -14,7 +14,7 @@ $(".landing-page").css({
     backgroundImage : 'url("imgs/' + imgesarray[randomNum] + '")'
 });
     console.log(randomNum)
-},1000);
+},10000);
 
     });
 

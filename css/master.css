@@ -327,7 +327,7 @@ bottom: 0;
 @media(max-width:767px){
     .about-us {
         width: 100%;
-       min-height: 1800px;
+       min-height: 1900px;
         position: relative;
         z-index: 1;
         line-height: 1.6;
@@ -364,7 +364,7 @@ margin-bottom: 100px;
 @media (max-width: 767px){
     .about-us .container .iff {
         width:100%;
-        min-height: 420px;
+        min-height: 460px;
        text-align: center;
        margin-top: -50px;
       max-height: 100px;
@@ -408,9 +408,7 @@ margin-bottom: 100px;
     width: 100%;
     min-height: 800px;
     position: relative;
-    background-image: url(/imgs/pexels-mudassir-ali-2680270.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #2f80ed;
     z-index: 10;
     line-height: 1.6;
    
@@ -808,13 +806,18 @@ font-weight: bold;
 /* start markting */
 .markting {
     width: 100%;
-    min-height: 900px;
+    min-height: 950px;
     background-color: #fff;
     position: relative;
 }
 @media (max-width:991px){
     .markting {
         min-height: 1450px;
+    }
+}
+@media (max-width:567px){
+    .markting {
+        min-height: 1500px;
     }
 }
 .markting .container2 {
@@ -913,6 +916,17 @@ position: relative;
         z-index: 10;
     }
 }
+@media (max-width:567px){
+    .right img {
+        width: 350px;
+        position: absolute;
+        bottom: -550px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+    }
+}
+
 .provide-fund {
     width: 210px;
     height: 70px;
@@ -931,6 +945,13 @@ position: relative;
     .provide-fund {
         top: 370px;
         left:calc(50% - 70px);
+        transform: translateX(-50%);
+    }
+}
+@media (max-width:567px){
+    .provide-fund {
+        top: 370px;
+        left:120px;
         transform: translateX(-50%);
     }
 }
@@ -973,6 +994,13 @@ margin-top: 20px;
         transform: translateX(-50%);
     }
 }
+@media (max-width:567px){
+    .provide-fund2 {
+        top: 280px;
+        left: 200px;
+        transform: translateX(-50%);
+    }
+}
 .provide-fund2 div h5 {
 font-size: 14px;
 padding: 0 5px;
@@ -1007,6 +1035,15 @@ margin-top: 20px;
     .team-work  {
         width: 100%;
         min-height: 1700px;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+@media (max-width: 567px){
+    .team-work  {
+        width: 100%;
+        min-height: 1900px;
         display: flex;
         justify-content: center;
 
@@ -1075,7 +1112,7 @@ margin-top: 20px;
 
 .oneofTeam {
     position: relative;
-    height: 300px;
+    height: 280px;
     margin-top: 10px;
 }
 .oneofTeam .person {
