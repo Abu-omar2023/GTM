@@ -21,10 +21,10 @@
                     <div class="links-container">
                     <ul class="links">
                         <li><a href="#about-us">ABOUT</a></li>
-                        <li><a href="#">NETWORK</a></li>
-                        <li><a href="#">TEAM & ADVISORS</a></li>
-                        <li><a href="#">GTM ENGINE</a></li>
-                        <li><a href="#">CONNECT US</a></li>
+                        <li><a href="#NETWORK">NETWORK</a></li>
+                        <li><a href="#TEAM">TEAM & ADVISORS</a></li>
+                        <li><a href="#ENGINE">GTM ENGINE</a></li>
+                        <li><a href="#CONNECT">CONNECT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -449,9 +449,17 @@ setInterval(() => {
 }, .00002)
 </script>
 <script>
-let num5ber = document.getElementById("number5")
-let coun5ter = 0;
-setInterval(() => {
+
+
+    </script>
+    <script>
+        window.onscroll = function (){
+            let num5ber = document.getElementById("number5")
+            let coun5ter = 0;
+            let num6ber = document.getElementById("number6")
+            let coun6ter = 0;
+            if (window.scrollY >= 2501){
+                setInterval(() => {
     if(coun5ter == 53){
         clearInterval;
     }else{
@@ -459,12 +467,8 @@ setInterval(() => {
         num5ber.innerHTML = coun5ter + "%";
     }
   
-}, 15)
-    </script>
-    <script>
-        let num6ber = document.getElementById("number6")
-        let coun6ter = 0;
-        setInterval(() => {
+}, 15);
+                setInterval(() => {
             if(coun6ter == 65){
                 clearInterval;
             }else{
@@ -473,31 +477,14 @@ setInterval(() => {
             }
           
         }, 15)
-            </script>
-            <!-- <script>
-                //start toggle menu 
-let toggleBtn = document.querySelector(".toggle-menu");
-let ulLinks = document.querySelector(".links");
-toggleBtn.onclick = function (e) {
-    e.stopPropagation();
-this.classList.toggle("menu-active");
-ulLinks.classList.toggle("open2")
-};
+            }
 
-// click anywhere outside menu
-document.addEventListener("click", (e) => {
-    if(e.target !== toggleBtn && e.target !== ulLinks){
-        if(ulLinks.classList.contains("open2")) {
-            toggleBtn.classList.toggle("menu-active");
-            ulLinks.classList.toggle("open2")
+
         }
-    }
-});
-ulLinks.onclick = function (e) {
-    e.stopPropagation();
-}
-                
-                </script> -->
+      
+    
+            </script>
+ 
     <script src="js/jquery-3.7.0.min.js"></script> 
     <script src="js/main.js"></script>
 </body>

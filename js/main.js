@@ -51,7 +51,7 @@ $(this).addClass('link').parent().siblings().find('a').removeClass('link');
 $('.sacand-nav ul li a').click(function(){
 $(this).addClass('link2').parent().siblings().find('a').removeClass('link2');
 });
-   
+   console.log($(".markting .container2 .right").offset())
 
 });
 
