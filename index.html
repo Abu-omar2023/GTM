@@ -454,11 +454,13 @@ setInterval(() => {
     </script>
     <script>
         window.onscroll = function (){
+
             let num5ber = document.getElementById("number5")
             let coun5ter = 0;
             let num6ber = document.getElementById("number6")
             let coun6ter = 0;
-            if (window.scrollY >= 2501){
+            let right = document.querySelector(".right")
+            if (window.scrollY >= right.offsetTop){
                 setInterval(() => {
     if(coun5ter == 53){
         clearInterval;
