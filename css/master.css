@@ -112,7 +112,7 @@ list-style: none;
     margin-right: 60px;
     right: 0;
     display: none;
-    
+    z-index: 2000;
 }  
 .hiden-nav.menu-active:before {
     content: "";
