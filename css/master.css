@@ -154,6 +154,7 @@ list-style: none;
        right: 30px;
        padding-bottom: 10px;
        border-radius: 10px;
+       z-index: 200;
     }
     .visible{
         visibility:visible
@@ -163,7 +164,7 @@ list-style: none;
         text-decoration: none;
     }
     .sacand-nav ul li {
-        margin-top: 5px;
+        margin-top: 10px;
         text-align: right;
         color: #fff;
         /* font-weight: bold; */
@@ -1272,8 +1273,7 @@ transform: translateX(-50%);
 .resorces {
     width: 100%;
     min-height: 1100px;
-    background-image: url(/imgs/pexels-ben-mack-5326901.jpg);
-    background-size: cover;
+  background-color: #eee;
     position: relative;
     top: -100px;
 }

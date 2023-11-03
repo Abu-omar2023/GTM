@@ -13,8 +13,9 @@ $(".landing-page").css({backgroundImage :'url("imgs/03.jpg")'});
     //change background imge url
 $(".landing-page").css({
     backgroundImage : 'url("imgs/' + imgesarray[randomNum] + '")'
-},50000);
 });
+    console.log(randomNum)
+},50000);
 
    
 $('.hiden-nav').click(function(e){
