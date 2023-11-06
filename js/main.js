@@ -51,7 +51,20 @@ $(this).addClass('link').parent().siblings().find('a').removeClass('link');
 $('.sacand-nav ul li a').click(function(){
 $(this).addClass('link2').parent().siblings().find('a').removeClass('link2');
 });
-   console.log($(".markting .container2 .right").offset())
+   console.log($(".markting .container2 .right").offset());
+   $(window).scroll(function(){
+    if($(window).scrollTop() >= 600){
+        $('.scrolltop').fadeIn()
+    }
+    else{
+        $('.scrolltop').fadeOut()
+    }
+   });
+   $('.scrolltop').click(function(){
+    $('html, body').animate({
+        scrollTop : 0
+    })
+   });
 
 });
 

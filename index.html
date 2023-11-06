@@ -14,6 +14,7 @@
 <body>
     <!-- start landing-page -->
     <div class="landing-page">
+        <div class="scrolltop"><i class="fa-solid fa-angles-up"></i></div>
         <div class="overlay"></div>
         <header>
             <div class="logo"><img src="imgs/1aACjk-LogoMakr.png" alt=""></div>
@@ -397,6 +398,10 @@
     </div>
 </div>
     <script>
+        window.onscroll = function (){
+            let number = document.getElementById("number")
+
+        }
         let number = document.getElementById("number")
 let counter = 0;
 setInterval(() => {
@@ -436,8 +441,11 @@ setInterval(() => {
 }, 130)
     </script>
     <script>
+       
         let num4ber = document.getElementById("number4")
-let coun4ter = 0;
+        let coun4ter = 0;
+        let stat = document.getElementsByClassName("statistics")
+           
 setInterval(() => {
     if(coun4ter == 550){
         clearInterval;
@@ -446,12 +454,10 @@ setInterval(() => {
         num4ber.innerHTML = coun4ter + "+";
     }
   
-}, .00002)
+}, 1)
+
+
 </script>
-<script>
-
-
-    </script>
     <script>
         window.onscroll = function (){
 
@@ -469,7 +475,7 @@ setInterval(() => {
         num5ber.innerHTML = coun5ter + "%";
     }
   
-}, 15);
+}, 8);
                 setInterval(() => {
             if(coun6ter == 65){
                 clearInterval;
@@ -479,6 +485,9 @@ setInterval(() => {
             }
           
         }, 15)
+            }else{
+                coun6ter += 0;
+                coun6ter += 0;
             }
 
 
