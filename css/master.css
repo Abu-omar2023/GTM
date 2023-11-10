@@ -1302,7 +1302,7 @@ transform: translateX(-50%);
     .resorces {
         width: 100%;
         min-height: 2000px;
-       
+        background-image: url(/imgs/pexels-ben-mack-5326901.jpg);
     }
 }
 .resorces .title {
@@ -1377,7 +1377,7 @@ transform: translateX(-50%);
     content: "";
     width: 66.7%;
     height: 1px;
-    background-color: #333;
+    background-color: #000;
     position: absolute;
     top: 436px;
 }
@@ -1412,7 +1412,7 @@ height: 15px;
 position: absolute;
 background-color: var(--main--color);
 border-radius: 50%;
- bottom: 73px;
+ bottom: 65px;
 left: 50%;
 transform: translateX(-50%);
 z-index: 1;
@@ -1676,8 +1676,21 @@ justify-content: center;
     }
     /* end footer */
       /* start Grid system */
+            
+  @media (min-width: 400px) {
+    .container {
+        max-width: 400px;
+    }
+    .container .iff {
+        width: 100%;
+    }
+  
+  }
   @media (min-width: 576px) {
     .container {
+        max-width: 560px;
+    }
+    .container4 {
         max-width: 560px;
     }
   }
@@ -1685,14 +1698,23 @@ justify-content: center;
     .container {
         max-width: 768px;
     }
+    .container4 {
+        max-width: 768px;
+    }
   }
   @media (min-width: 992px) {
     .container {
         max-width: 960px;
     }
+    .container4 {
+        max-width: 960px;
+    }
   }
   @media (min-width: 1200px) {
     .container {
+        max-width: 1140px;
+    }
+    .container4 {
         max-width: 1140px;
     }
   }
