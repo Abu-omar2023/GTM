@@ -397,6 +397,23 @@
         <div class="follow-us"><p>Follow us:</p><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin-in"></i></div>
     </div>
 </div>
+<script>
+    //select landing page element
+let landingPage = document.querySelector(".landing-page"); 
+// get array imges
+let imgesarray = ["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg","07.jpg"];
+//change background imge url
+landingPage.style.backgroundImage = 'url("imgs/06.jpg")';
+//get random number
+
+
+setInterval(function () {
+    let randomNum = Math.floor(Math.random() * imgesarray.length);
+    //change background imge url
+landingPage.style.backgroundImage = 'url("imgs/' + imgesarray[randomNum] + '")';
+    console.log(randomNum)
+}, 50000);
+</script>
     <script>
         window.onscroll = function (){
             let number = document.getElementById("number")
