@@ -236,7 +236,7 @@ width: 70%;
 .container .intro-text p{
  color: #fff;
 }
-button.bar {
+.container .intro-text button {
    background-color: #ffffff00;
    padding: 10px;
    border: 1px solid #fff;
@@ -254,7 +254,7 @@ button.bar {
         color: #fff;
         font-size: 50px;
        }
-    button.bar {
+       button.bar {
         background-color: #ffffff00;
         padding: 10px;
         border: 1px solid #fff;
@@ -267,7 +267,7 @@ button.bar {
         }
         
    }
-   button.bar span {
+button.bar span {
   width: 0;
   height: 100%;
   position: absolute;
@@ -449,7 +449,7 @@ margin-bottom: 100px;
     padding: 10px;
 }
 .about-us .container .iff p{
- width: 100%;
+ 
     text-align: center;
     padding:5px;
 }
@@ -1293,7 +1293,8 @@ transform: translateX(-50%);
 .resorces {
     width: 100%;
     min-height: 1100px;
- background-color: burlywood;
+    background-image: url(/imgs/pexels-ben-mack-5326901.jpg);
+    background-size: cover;
     position: relative;
    
 }
@@ -1301,7 +1302,7 @@ transform: translateX(-50%);
     .resorces {
         width: 100%;
         min-height: 2000px;
-        background-image: url(/imgs/pexels-ben-mack-5326901.jpg);
+       
     }
 }
 .resorces .title {
@@ -1376,7 +1377,7 @@ transform: translateX(-50%);
     content: "";
     width: 66.7%;
     height: 1px;
-    background-color: #000;
+    background-color: #333;
     position: absolute;
     top: 436px;
 }
@@ -1411,7 +1412,7 @@ height: 15px;
 position: absolute;
 background-color: var(--main--color);
 border-radius: 50%;
- bottom: 65px;
+ bottom: 73px;
 left: 50%;
 transform: translateX(-50%);
 z-index: 1;
@@ -1675,21 +1676,8 @@ justify-content: center;
     }
     /* end footer */
       /* start Grid system */
-            
-  @media (min-width: 400px) {
-    .container {
-        max-width: 400px;
-    }
-    .container .iff {
-        width: 100%;
-    }
-  
-  }
   @media (min-width: 576px) {
     .container {
-        max-width: 560px;
-    }
-    .container4 {
         max-width: 560px;
     }
   }
@@ -1697,23 +1685,14 @@ justify-content: center;
     .container {
         max-width: 768px;
     }
-    .container4 {
-        max-width: 768px;
-    }
   }
   @media (min-width: 992px) {
     .container {
         max-width: 960px;
     }
-    .container4 {
-        max-width: 960px;
-    }
   }
   @media (min-width: 1200px) {
     .container {
-        max-width: 1140px;
-    }
-    .container4 {
         max-width: 1140px;
     }
   }
