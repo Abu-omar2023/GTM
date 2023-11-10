@@ -4,18 +4,7 @@ $(document).ready(function(){
     $('.landing-page header .nav-ul li a').click(function(){
         $(this).addClass('links').parent().siblings().find('a').removeClass('links');
     });
-// //change background imgs for landing pag
-// setInterval(function () {
-//     let imgesarray = ["07.jpg","02.jpg","03.jpg","04.jpg"];
-// //change background imge url
-// $(".landing-page").css({backgroundImage :'url("imgs/03.jpg")'});
-//     let randomNum = Math.floor(Math.random() * imgesarray.length);
-//     //change background imge url
-// $(".landing-page").css({
-//     backgroundImage : 'url("imgs/' + imgesarray[randomNum] + '")'
-// });
-//     console.log(randomNum)
-// },50000);
+// 
 $("button.bar").hover(function(){
     $("button.bar span").animate({
         "width":"100%"
