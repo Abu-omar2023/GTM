@@ -236,7 +236,7 @@ width: 70%;
 .container .intro-text p{
  color: #fff;
 }
-.container .intro-text button {
+button.bar {
    background-color: #ffffff00;
    padding: 10px;
    border: 1px solid #fff;
@@ -254,7 +254,7 @@ width: 70%;
         color: #fff;
         font-size: 50px;
        }
-    .container .intro-text button {
+    button.bar {
         background-color: #ffffff00;
         padding: 10px;
         border: 1px solid #fff;
@@ -267,7 +267,7 @@ width: 70%;
         }
         
    }
-   .container .intro-text button span {
+   button.bar span {
   width: 0;
   height: 100%;
   position: absolute;
@@ -449,7 +449,7 @@ margin-bottom: 100px;
     padding: 10px;
 }
 .about-us .container .iff p{
- 
+ width: 100%;
     text-align: center;
     padding:5px;
 }
@@ -1293,8 +1293,7 @@ transform: translateX(-50%);
 .resorces {
     width: 100%;
     min-height: 1100px;
-    background-image: url(/imgs/pexels-ben-mack-5326901.jpg);
-    background-size: cover;
+ background-color: burlywood;
     position: relative;
    
 }
